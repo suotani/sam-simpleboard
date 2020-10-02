@@ -11,6 +11,8 @@
     @endcomponent
     
     <div class="container pt-5 pb-5">
+      @component('components.flash')
+      @endcomponent
       @yield('content')
     </div>
 
